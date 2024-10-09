@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: bisque;
 }
 .container{
@@ -16,4 +16,7 @@ body{
     margin-left: 300px;
     padding: 100px 50px 40px; 
     box-sizing: border-box;
-}
+} */
+ div p{
+    background-color: yellow;
+ }
