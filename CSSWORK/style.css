@@ -1,22 +1,77 @@
-/* body{
+body{
     background-color: bisque;
 }
-.container{
+
+ /* div{
+    background-color: aqua;
+ } */
+
+ .container{
     background-color: bisque;
-    height: 400px;
+    height: 200px;
     border: 2px solid red;
     margin-top: 100px;
-}
-.child1{
+ }
+ /* .child1{
     background-color: brown;
     color: white;
     height: 300px;
     border: 2px solid blue;
     width: 300px;
-    margin-left: 300px;
-    padding: 100px 50px 40px; 
+    margin-left: 200px;
+    padding: 40px 30px 20px;
     box-sizing: border-box;
-} */
- div p{
+ } */
+
+ /* div +p{
     background-color: yellow;
+ } */
+
+ /* .myparagraph{
+    background-color: aqua;
+ }
+
+ #myid{
+   background-color: brown;
+ } */
+
+ .container{
+   background-color: cadetblue;
+   height: 400px;
+   width: 100%;
+   border: 2px solid red;
+   display: flex;
+    flex-direction: row;/*default is row */
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    
+}
+
+  
+
+ .child1,.child2,.child3{
+   height: 200px;
+   border: 1px dotted blue;
+   width: 300px;
+   /* display: inline-block;
+   margin: 20px; ;
+   padding: 20px;  */
+   /* display: flex; */ 
+   
+ }
+
+ .child1{
+   background-color: orangered;
+ }
+
+ .child2{
+   background-color: chocolate;
+   flex-basis: 50%;
+ }
+
+ .child3{
+   background-color: brown;
  }
