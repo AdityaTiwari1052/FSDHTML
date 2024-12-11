@@ -1,6 +1,7 @@
 import React from 'react'
 import Student from './Student'
 import StateHandling from './StateHandling'
+import ImageManipulation from './ImageManipulation'
                                        //part of businees logic
 function App() {
    
@@ -43,11 +44,14 @@ function App() {
                 } */}
             {/* //  < Student data={studentdata}/> */}
               </div>  
+              <div>
+                <ImageManipulation/>
+              </div>
 
 
               {/* Here Start StateHandling */}
               <div>
-                <StateHandling/>
+                {/* <StateHandling/> */}
               </div>
            
           <div>

@@ -6,6 +6,9 @@ function StateHandling() {
     function doIncrement(){
         setCount(count+20)
     }
+    function doDecrement(){
+        setCount(count-20)
+    }
   return (
     <div>
     <div> StateHandling
@@ -13,6 +16,7 @@ function StateHandling() {
     </div>
     <div>
         <button onClick={doIncrement}>Increment </button>
+        <button onClick={doDecrement}>Decrement</button>
 
     </div>
     </div>
