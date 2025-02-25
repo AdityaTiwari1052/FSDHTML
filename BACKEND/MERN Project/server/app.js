@@ -9,7 +9,7 @@ const users=[
         password:"abes"
     }
 ]
-app.use(express.json)
+app.use(express.json());
 app.get('/users',(req,res)=>{
     res.status(200);
     res.json(users);
