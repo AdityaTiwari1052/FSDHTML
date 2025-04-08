@@ -1,0 +1,4 @@
+types of middleware
+1.application level middleware
+2.router level middleware
+3.built in middleware
